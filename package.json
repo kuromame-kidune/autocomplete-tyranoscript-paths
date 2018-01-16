@@ -1,0 +1,25 @@
+{
+  "name": "autocomplete-tyranoscript-paths",
+  "main": "./lib/autocomplete-paths",
+  "version": "0.0.0",
+  "description": "Extended function of TyranoScript Autocomplete Package for Atom",
+  "repository": "https://github.com/kuromame-kidune/autocomplete-tyranoscript-paths.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.23.3"
+  },
+  "dependencies": {
+    "fuzzaldrin-plus": "^0.4.1",
+    "git-ignore-parser": "^0.0.2",
+    "minimatch": "^3.0.4",
+    "slash": "^1.0.0",
+    "underscore-plus": ">=1.1.2"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  }
+}
